@@ -1,6 +1,6 @@
 # Travel Card Applet
 
-This prototype Travel Card applet is a free and open source implementation of the Travel Card (MTS7) in JavaCard. It based on a PGP applet called SmartPGP which is developed by the french cyber-security authority ANSSI.
+This prototype Travel Card applet is a free and open source implementation of the Travel Card (MTS7) in JavaCard. It based on a PGP applet called [SmartPGP](https://github.com/ANSSI-FR/SmartPGP) which is developed by the french cyber-security authority ANSSI.
 
 ## Features
 
