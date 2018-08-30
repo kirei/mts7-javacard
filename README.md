@@ -23,10 +23,12 @@ These values can be changed by modifying default values in the code (see the [`C
 
 ## Compliance with Travel Card specification
 
-The Travel Card applet implements the complete MTS7 specification, except the following features:
+The Travel Card applet aims to implement the MTS7 specification at compliance level 1. Most notably, the following features are missing to support the full specification:
 
 - Secure Messaging
 - Specification of algorithm for key generation using a Control Reference Template. Currently, the applet generates the type of keys set as default in the [`Constants.java`](src/travelcard/Constants.java) class
+
+No claims are made that the code is in full compliance with MTS7. It has not been thoroughly tested.
 
 # Build and installation instructions
 
@@ -55,4 +57,4 @@ The applet allocates all its data structures to their maximal size at installati
 
 The CAP file installation depends on your device, so you have to refer to the instructions given by your device manufacturer. Most open cards relying on Global Platform with default keys are supported by [GlobalPlatformPro](https://github.com/martinpaljak/GlobalPlatformPro).
 
-Be careful to use a valid AID according to the Travel Card specification (see section 4.2.1) for each card.
+Be careful to use a valid AID according to the Travel Card specification (see section 3.1.2) for each card.
