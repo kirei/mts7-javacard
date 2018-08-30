@@ -6,11 +6,11 @@ This prototype Travel Card applet is a free and open source implementation of th
 
 The following features are implemented at the applet level, but some of them depend on underlying hardware support and available (non-)volatile memory resources:
 
-- RSA with 2048 bits modulus and ECC with NIST curve P-256 for authentication;
-- On-board key generation and external private key import;
-- Multiple MTBs (up to 1 kB each);
-- Command and response chaining;
-- Extended length APDUs.
+- RSA with 2048 bits modulus and ECC with NIST curve P-256 for authentication
+- On-board key generation and external private key import
+- Multiple MTBs (up to 1 kB each)
+- Command and response chaining
+- Extended length APDUs
 
 ## Default values
 
@@ -19,14 +19,14 @@ The SmartPGP applet is configured with the following default values:
 - NIST P-256 for key generation
 - Extended length APDUs disabled
 
-These values can be changed by modifying default values in the code (see the [Constants.java](src/travelcard/Constants.java) class).
+These values can be changed by modifying default values in the code (see the [`Constants.java`](src/travelcard/Constants.java) class).
 
 ## Compliance with Travel Card specification
 
 The Travel Card applet implements the complete MTS7 specification, except the following features:
 
-- Secure Messaging;
-- Specification of algorithm for key generation using a Control Reference Template. Currently, the applet generates the type of keys set as default in the Constants.java](src/travelcard/Constants.java) class.
+- Secure Messaging
+- Specification of algorithm for key generation using a Control Reference Template. Currently, the applet generates the type of keys set as default in the [`Constants.java`](src/travelcard/Constants.java) class
 
 # Build and installation instructions
 
